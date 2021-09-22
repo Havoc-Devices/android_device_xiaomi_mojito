@@ -79,6 +79,10 @@ TARGET_ENABLE_MULTI_SENSOR := true
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Google Photos
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2016_exclusive.xml
+
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
