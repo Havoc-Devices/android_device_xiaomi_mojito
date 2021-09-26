@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mojito.mk
+    $(LOCAL_DIR)/havoc_mojito.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_mojito-user \
+    havoc_mojito-userdebug \
+    havoc_mojito-eng
