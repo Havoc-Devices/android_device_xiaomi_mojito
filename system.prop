@@ -51,6 +51,6 @@ wifi.interface=wlan0
 
 # Havoc-OS Official
 ro.havoc.device.name=Xiaomi Redmi Note 10
-ro.havoc.group.url=https://t.me/+kudTjLPGa_BhYTdl
+ro.havoc.group.url=https://t.me/+fwLy4jLVCLc2YzA9
 ro.havoc.maintainer=Don Joaquin
 ro.havoc.maintainer.username=mafiasupremacy
