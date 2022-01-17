@@ -11,20 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common Nusantara stuff
+# Inherit some common Havoc OS stuff
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
-USE_PIXEL_CHARGING := true
-TARGET_USES_BLUR := true
-USE_GAPPS ?= true
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-NAD_BUILD_TYPE := OFFICIAL
-
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_mojito
+PRODUCT_NAME := havoc_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10

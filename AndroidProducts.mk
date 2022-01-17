@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_mojito.mk
+    $(LOCAL_DIR)/havoc_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_mojito-user \
-    nad_mojito-userdebug \
-    nad_mojito-eng
+    havoc_mojito-user \
+    havoc_mojito-userdebug \
+    havoc_mojito-eng

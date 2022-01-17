@@ -1,0 +1,12 @@
+[
+ {
+   "repository"  : "android_kernel_xiaomi_mojito",
+   "target_path" : "kernel/xiaomi/sm6150",
+   "branch"      : "eleven"
+ },
+ {
+   "repository"  : "android_vendor_xiaomi_mojito",
+   "target_path" : "vendor/xiaomi/mojito",
+   "branch"      : "eleven"
+ }
+]
