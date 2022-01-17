@@ -29,6 +29,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
 
+# Include ANXCamera
+$(call inherit-product, vendor/xiaomi/ANXCamera/config.mk)
+
 # A/B
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \

@@ -8,5 +8,10 @@
    "repository"  : "android_vendor_xiaomi_mojito",
    "target_path" : "vendor/xiaomi/mojito",
    "branch"      : "eleven"
+ },
+ { 
+   "repository"  : "android_vendor_xiaomi_ANXCamera",
+   "target_path" : "vendor/xiaomi/ANXCamera",
+   "branch"      : "185R"
  }
 ]
