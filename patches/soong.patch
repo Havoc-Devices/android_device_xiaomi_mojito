@@ -1,0 +1,18 @@
+diff --git a/ui/build/paths/config.go b/ui/build/paths/config.go
+index 160feb68..d0191560 100644
+--- a/ui/build/paths/config.go
++++ b/ui/build/paths/config.go
+@@ -99,6 +99,12 @@ var Configuration = map[string]PathConfig{
+ 	"tr":      Allowed,
+ 	"unzip":   Allowed,
+ 	"zip":     Allowed,
++	"llvm-ar":   Allowed,
++	"llvm-nm":   Allowed,
++	"llvm-objcopy":   Allowed,
++	"llvm-objdump":   Allowed,
++	"llvm-strip":   Allowed,
++	"aarch64-elf-ld.lld":   Allowed,
+ 
+ 	// Host toolchain is removed. In-tree toolchain should be used instead.
+ 	// GCC also can't find cc1 with this implementation.
+-- 
